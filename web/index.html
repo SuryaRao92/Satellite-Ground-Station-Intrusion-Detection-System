@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Satellite IDS Dashboard</title>
+</head>
+<body>
+    <h1>🛰️ Satellite IDS Dashboard</h1>
+    
+    <h2>Alerts:</h2>
+    
+    <ul>
+        {% for log in logs %}
+            <li>{{ log }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
