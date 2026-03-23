@@ -47,4 +47,4 @@ python web/app.py
 
 ## 👨‍💻 Author
 
-[Your Name]
+G Surya Rao
